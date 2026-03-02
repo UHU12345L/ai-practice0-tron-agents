@@ -43,14 +43,12 @@ ends the game.
 5. Input directions via console: `N` (North), `S` (South), `E` (East), `O` (West)
 
 ## 📁 Project Structure
-```
 src/
 └── P0/
     ├── Tron.java              # Main simulation loop
     ├── Entorno.java           # Game engine (grid, rules, physics)
     ├── AgenteInteractivo.java # Interactive keyboard-controlled agent
     └── package-info.java
-```
 
 ## 🧠 What I Learned
 
@@ -59,11 +57,3 @@ src/
 - Structuring a Java project with packages
 - Separating game logic (Entorno) from agent logic
 ```
-
----
-
-En cuanto a **archivos a subir**, sube solo la carpeta `src/` con los `.java` (no subas los `.class` ni carpetas `bin/` u `obj/`). Puedes añadir un `.gitignore` básico:
-```
-*.class
-bin/
-obj/
