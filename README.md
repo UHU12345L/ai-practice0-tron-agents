@@ -56,4 +56,3 @@ src/
 - Validating moves against dynamic environment state
 - Structuring a Java project with packages
 - Separating game logic (Entorno) from agent logic
-```
